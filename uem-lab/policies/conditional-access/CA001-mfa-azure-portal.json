@@ -1,0 +1,17 @@
+{
+  "displayName": "CA001 — Require MFA for Azure management",
+  "state": "enabled",
+  "conditions": {
+    "users": {
+      "includeUsers": ["All"]
+    },
+    "applications": {
+      "includeApplications": ["797f4846-ba00-4fd7-ba43-dac1f8f63013"]
+    },
+    "clientAppTypes": ["browser", "mobileAppsAndDesktopClients"]
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": ["mfa"]
+  }
+}
