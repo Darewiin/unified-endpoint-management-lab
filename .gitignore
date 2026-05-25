@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials (never commit these)
+*.pfx
+*.cer
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# PowerShell module cache
+PSModules/
+
+# Logs
+*.log
