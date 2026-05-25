@@ -146,4 +146,4 @@ Exported policy JSON files are in [`policies/conditional-access/`](policies/cond
 
 ## License
 
-This project is for educational and portfolio purposes. No proprietary code or credentials are included.
+This project is licensed under the [MIT License](LICENSE).
