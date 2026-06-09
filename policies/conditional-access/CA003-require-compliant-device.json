@@ -1,0 +1,17 @@
+{
+  "displayName": "CA003 — Require compliant device for Microsoft 365",
+  "state": "enabled",
+  "conditions": {
+    "users": {
+      "includeUsers": ["All"]
+    },
+    "applications": {
+      "includeApplications": ["Office365"]
+    },
+    "clientAppTypes": ["browser", "mobileAppsAndDesktopClients"]
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": ["compliantDevice"]
+  }
+}

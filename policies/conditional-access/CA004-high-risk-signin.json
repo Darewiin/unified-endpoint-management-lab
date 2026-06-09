@@ -1,0 +1,17 @@
+{
+  "displayName": "CA004 — Respond to high-risk sign-ins",
+  "state": "enabled",
+  "conditions": {
+    "users": {
+      "includeUsers": ["All"]
+    },
+    "applications": {
+      "includeApplications": ["All"]
+    },
+    "signInRiskLevels": ["high"]
+  },
+  "grantControls": {
+    "operator": "AND",
+    "builtInControls": ["mfa", "passwordChange"]
+  }
+}

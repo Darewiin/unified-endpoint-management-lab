@@ -1,0 +1,21 @@
+{
+  "displayName": "CA002 — Block access outside US",
+  "state": "enabled",
+  "conditions": {
+    "users": {
+      "includeUsers": ["All"],
+      "excludeUsers": ["<break-glass-account-object-id>"]
+    },
+    "applications": {
+      "includeApplications": ["All"]
+    },
+    "locations": {
+      "includeLocations": ["All"],
+      "excludeLocations": ["<named-location-id-us-only>"]
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": ["block"]
+  }
+}
