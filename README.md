@@ -130,6 +130,12 @@ Exported policy JSON files are in [`policies/conditional-access/`](policies/cond
 3. Follow the step-by-step guide in [`docs/architecture.md`](docs/architecture.md)
 4. Use a Windows 11 VM (Parallels, Hyper-V, or VMware) as the managed endpoint
 
+<img width="1291" height="554" alt="phase4-compliance-status" src="https://github.com/user-attachments/assets/325e996c-e1a2-43b1-b828-6b2da6f56744" />
+
+<img width="1233" height="423" alt="phase5-signin-detail" src="https://github.com/user-attachments/assets/408276c2-a2a6-4e4b-9cbb-16d157b58e1d" />
+
+
+
 ---
 
 ## License
