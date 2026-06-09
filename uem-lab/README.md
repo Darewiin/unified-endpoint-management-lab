@@ -76,8 +76,8 @@ uem-lab/
 │   ├── conditional-access-design.md   # CA policy matrix and design logic
 │   ├── compliance-baseline.md         # What "compliant" means and why
 │   ├── troubleshooting-runbook.md     # Diagnostic procedures for common issues
-│   ├── lessons-learned.md             # What broke, how it was fixed
-│   └── screenshots/                   # Annotated screenshots of key configs
+│   ├── lessons-learned.md            
+│   └── screenshots/                   
 │       ├── entra-conditional-access.png
 │       ├── intune-compliance-policy.png
 │       ├── intune-device-enrolled.png
@@ -89,13 +89,7 @@ uem-lab/
 │       ├── CA002-block-outside-us.json
 │       ├── CA003-require-compliant-device.json
 │       └── CA004-high-risk-signin.json
-├── scripts/
-│   ├── export-ca-policies.ps1         # PowerShell script to export CA policies
-│   ├── create-users.ps1               # Bulk user creation script
-│   └── audit-log-query.ps1            # KQL queries for sign-in analysis
-└── .github/
-    └── CODEOWNERS                     # Repo ownership
-```
+
 
 ---
 
