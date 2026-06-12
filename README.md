@@ -114,7 +114,7 @@ Exported policy JSON files are in [`policies/conditional-access/`](policies/cond
 
 3. **Compliance before access** — Conditional Access Policy CA003 enforces device compliance as a prerequisite for Microsoft 365 access. A non-compliant device (missing BitLocker, outdated OS, disabled firewall) is blocked regardless of the user's identity.
 
-4. **Report-Only first** — All Conditional Access policies were deployed in Report-Only mode, validated with the "What If" tool, then switched to Enabled — matching the production deployment pattern.
+4. **Report-Only first** — All Conditional Access policies were deployed in Report-Only mode, validated with the "What If" tool. This matches the production best practice of validating policy impact before enforcement.
 
 ---
 
