@@ -1,7 +1,7 @@
 // Sanitized template — object IDs replaced with placeholders for privacy. Replace <break-glass-account-object-id> and <named-location-id-us-only> with real values from your tenant.
 {
   "displayName": "CA003 — Require compliant device for Microsoft 365",
-  "state": "enabled",
+  "state": "enabledForReportingButNotEnforced",
   "conditions": {
     "users": {
       "includeUsers": ["All"]

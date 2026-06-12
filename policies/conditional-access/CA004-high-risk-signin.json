@@ -1,7 +1,7 @@
 // Sanitized template — object IDs replaced with placeholders for privacy. Replace <break-glass-account-object-id> and <named-location-id-us-only> with real values from your tenant.
 {
   "displayName": "CA004 — Respond to high-risk sign-ins",
-  "state": "enabled",
+  "state": "enabledForReportingButNotEnforced",
   "conditions": {
     "users": {
       "includeUsers": ["All"]
